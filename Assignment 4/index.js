@@ -1,5 +1,4 @@
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 //1. Hello World
 let greeting = "Hello World!";
 console.log(greeting);
@@ -16,7 +15,12 @@ let b1 = 45;
 a1 = b1;
 console.log(a1);
 //4. Types Annotatation
-//let abc:="15";
+let abc1 = "This is string";
+switch (abc1) {
+    case abc1:
+        (5);
+        break;
+}
 //5. Modulus Operator
 let x1 = 15;
 let y1 = 20;
@@ -102,12 +106,21 @@ else if ((marks >= 40) && (marks < 50)) {
 console.log(Math.max(69, 420, 108, 47, 500));
 //console.log(numbers);
 //13- Leap Year Checker
-//let =2024
-//function checkLeapYear(year1){}
+function leapyear(year) {
+    // Return true if the year is divisible by 4 but not divisible by 100 unless it's also divisible by 400
+    return (year % 100 === 0) ? (year % 400 === 0) : (year % 4 === 0);
+}
+console.log(leapyear(2024)); // 
+console.log(leapyear(2023)); // 
 //14- Fahrenheit to Celsius Converter
-//let number1= 40
-function fahrenheitToCelsius(fahrenheit) { return (fahrenheit - 32) * 5 / 9; }
-console.log(fahrenheitToCelsius);
+// Function to convert Fahrenheit to Celsius
+function fahrenheitToCelsius(fahrenheit) {
+    return (fahrenheit - 32) * 5 / 9;
+}
+// Test the function
+const fahrenheitTemperature = 80;
+const celsiusTemperature = fahrenheitToCelsius(fahrenheitTemperature);
+console.log(`${fahrenheitTemperature}°F is approximtscately equal to ${celsiusTemperature.toFixed(2)}°C.`);
 //15-Positive, Negative, or Zerok
 let k1 = 15;
 let k2 = -20;
