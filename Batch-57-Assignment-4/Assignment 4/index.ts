@@ -83,15 +83,11 @@ g/=2
 console.log(g);
 
 //9- Even or Odd
-let num1=
-function Odd_evenNum(num1){
-    if(num1==0){
-        return`${num1}is even`;
+let n1=10;
+if (n1%2==0){
+    console.log("even")
+}
+    else {
+        console.log("odd")
     }
-    else if (num1==1) {
-        return`${num1}is odd`;
-    }
-                
-    }
-
 
