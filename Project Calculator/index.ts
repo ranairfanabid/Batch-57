@@ -1,4 +1,5 @@
 import inquirer from "inquirer";
+
 const name1 = inquirer.prompt([
     {
         type:"input",
