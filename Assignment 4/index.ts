@@ -116,7 +116,7 @@ else{
 
 let marks=70;
 
-if((marks>=90) && (marks<90)) {
+if((marks>=90) && (marks<99)) {
     console.log("Exceptional")
 }
 else if((marks>=80) && (marks<90))  {

@@ -83,7 +83,7 @@ else {
 }
 //11-Grading System
 let marks = 70;
-if ((marks >= 90) && (marks < 90)) {
+if ((marks >= 90) && (marks < 99)) {
     console.log("Exceptional");
 }
 else if ((marks >= 80) && (marks < 90)) {
@@ -117,7 +117,6 @@ console.log(leapyear(2023)); //
 function fahrenheitToCelsius(fahrenheit) {
     return (fahrenheit - 32) * 5 / 9;
 }
-// Test the function
 const fahrenheitTemperature = 80;
 const celsiusTemperature = fahrenheitToCelsius(fahrenheitTemperature);
 console.log(`${fahrenheitTemperature}°F is approximtscately equal to ${celsiusTemperature.toFixed(2)}°C.`);
