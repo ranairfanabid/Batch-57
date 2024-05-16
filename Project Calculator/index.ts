@@ -4,12 +4,12 @@ const name1 = inquirer.prompt([
     {
         type:"input",
         name:"First number",
-        message:"enter your first numvber"
+        message:"enter your first number"
     },
 {
     type:"input",
     name:"second number",
-    message:"enter your second numvber"  
+    message:"enter your second number"  
 },
 {
     type:"operator",
